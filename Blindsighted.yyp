@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"playerBullet","path":"sprites/playerBullet/playerBullet.yy",},"order":15,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"enemyBullet","path":"sprites/enemyBullet/enemyBullet.yy",},"order":16,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
