@@ -36,10 +36,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Bind","path":"rooms/Bind/Bind.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"SimpleArena","path":"rooms/SimpleArena/SimpleArena.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Split","path":"rooms/Split/Split.yy",},},
+    {"roomId":{"name":"Bind","path":"rooms/Bind/Bind.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
