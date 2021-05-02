@@ -36,8 +36,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"SimpleArena","path":"rooms/SimpleArena/SimpleArena.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Split","path":"rooms/Split/Split.yy",},},
     {"roomId":{"name":"Bind","path":"rooms/Bind/Bind.yy",},},
   ],
