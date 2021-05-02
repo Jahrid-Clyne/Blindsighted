@@ -5,6 +5,7 @@
     {"id":{"name":"playerBullet","path":"sprites/playerBullet/playerBullet.yy",},"order":15,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"oHorizontalWall","path":"objects/oHorizontalWall/oHorizontalWall.yy",},"order":2,},
+    {"id":{"name":"Bind","path":"rooms/Bind/Bind.yy",},"order":3,},
     {"id":{"name":"oVerticalWall","path":"objects/oVerticalWall/oVerticalWall.yy",},"order":3,},
     {"id":{"name":"sDownLeftToUpRightWall","path":"sprites/sDownLeftToUpRightWall/sDownLeftToUpRightWall.yy",},"order":5,},
     {"id":{"name":"oUpLeftToDownRightWall","path":"objects/oUpLeftToDownRightWall/oUpLeftToDownRightWall.yy",},"order":5,},
@@ -14,6 +15,8 @@
     {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},"order":1,},
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},"order":3,},
     {"id":{"name":"oDownLeftToUpRightWall","path":"objects/oDownLeftToUpRightWall/oDownLeftToUpRightWall.yy",},"order":4,},
+    {"id":{"name":"Split","path":"rooms/Split/Split.yy",},"order":2,},
+    {"id":{"name":"SimpleArena","path":"rooms/SimpleArena/SimpleArena.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -30,6 +33,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"SimpleArena","path":"rooms/SimpleArena/SimpleArena.yy",},},
+    {"roomId":{"name":"Split","path":"rooms/Split/Split.yy",},},
+    {"roomId":{"name":"Bind","path":"rooms/Bind/Bind.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
