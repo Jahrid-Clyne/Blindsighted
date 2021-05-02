@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"sTestGun","path":"sprites/sTestGun/sTestGun.yy",},"order":0,},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":15,},
+    {"id":{"name":"ShootingProcess","path":"rooms/ShootingProcess/ShootingProcess.yy",},"order":1,},
+    {"id":{"name":"oTestGun","path":"objects/oTestGun/oTestGun.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -14,6 +18,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"ShootingProcess","path":"rooms/ShootingProcess/ShootingProcess.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
