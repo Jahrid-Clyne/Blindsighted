@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},"order":15,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":8,},
     {"id":{"name":"sUpLeftToDownRightWall","path":"sprites/sUpLeftToDownRightWall/sUpLeftToDownRightWall.yy",},"order":4,},
     {"id":{"name":"sHorizontalWall","path":"sprites/sHorizontalWall/sHorizontalWall.yy",},"order":2,},
@@ -10,9 +11,11 @@
     {"id":{"name":"oVerticalWall","path":"objects/oVerticalWall/oVerticalWall.yy",},"order":3,},
     {"id":{"name":"sDownLeftToUpRightWall","path":"sprites/sDownLeftToUpRightWall/sDownLeftToUpRightWall.yy",},"order":5,},
     {"id":{"name":"oUpLeftToDownRightWall","path":"objects/oUpLeftToDownRightWall/oUpLeftToDownRightWall.yy",},"order":5,},
+    {"id":{"name":"oMovementPointer","path":"objects/oMovementPointer/oMovementPointer.yy",},"order":9,},
     {"id":{"name":"enemyBullet","path":"sprites/enemyBullet/enemyBullet.yy",},"order":6,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":8,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":7,},
+    {"id":{"name":"sMovementPointer","path":"sprites/sMovementPointer/sMovementPointer.yy",},"order":9,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"sVerticalWall","path":"sprites/sVerticalWall/sVerticalWall.yy",},"order":1,},
     {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},"order":1,},
@@ -36,8 +39,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"SimpleArena","path":"rooms/SimpleArena/SimpleArena.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"SimpleArena","path":"rooms/SimpleArena/SimpleArena.yy",},},
     {"roomId":{"name":"Split","path":"rooms/Split/Split.yy",},},
     {"roomId":{"name":"Bind","path":"rooms/Bind/Bind.yy",},},
   ],
