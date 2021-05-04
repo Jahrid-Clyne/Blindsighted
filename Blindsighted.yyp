@@ -2,7 +2,11 @@
   "resources": [
     {"id":{"name":"sMovementPointer","path":"sprites/sMovementPointer/sMovementPointer.yy",},"order":14,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":8,},
+<<<<<<< HEAD
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":15,},
+=======
     {"id":{"name":"oEnemyBullet","path":"objects/oEnemyBullet/oEnemyBullet.yy",},"order":15,},
+>>>>>>> 1f9db6fed353151cb64ab95c81861e424296df10
     {"id":{"name":"oPlayerSpawner","path":"objects/oPlayerSpawner/oPlayerSpawner.yy",},"order":14,},
     {"id":{"name":"sWallUpLeftToDownRight","path":"sprites/sWallUpLeftToDownRight/sWallUpLeftToDownRight.yy",},"order":4,},
     {"id":{"name":"sWallAltDownLeftToUpRight","path":"sprites/sWallAltDownLeftToUpRight/sWallAltDownLeftToUpRight.yy",},"order":12,},
