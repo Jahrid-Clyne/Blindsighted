@@ -1,5 +1,6 @@
 draw_text(0, 64, string(oPlayerBullet.collisionCount));
 
+MAX_COLLISIONS = 2;
 didCollision = false;
 
 // Collision
@@ -66,7 +67,7 @@ if place_meeting(x, y + lengthdir_y(speed+1, direction), oEnemy) {
 
 
 
-if (collisionCount > 2) {
+if (collisionCount > MAX_COLLISIONS) {
 	instance_destroy();
 	with (oManager)
 	{
