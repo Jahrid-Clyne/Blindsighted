@@ -1,8 +1,11 @@
 switch(currentPhase){
 	case phase.init:
+		var playerSpawner = instance_find(oPlayer, 0);
+		var playerUnit = instance_create_layer(playerSpawner.x, playerSpawner.y, "Units", oPlayer);
+		ds_list_add(global.units, playerUnit);
 		for(var i = 0; i < instance_number(oSpawn); i++){
 			var spawner = instance_find(oSpawn, i);
-			var unit = instance_create_layer(spawner.x, spawner.y,"Enemies", oEnemy);
+			var unit = instance_create_layer(spawner.x, spawner.y,"Units", oEnemy);
 			ds_list_add(global.units, unit);
 		}
 		currentPhase = phase.startTurn;
