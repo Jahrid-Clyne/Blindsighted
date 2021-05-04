@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sWallHorizontal",
-    "path": "sprites/sWallHorizontal/sWallHorizontal.yy",
+    "name": "sWallAltDownLeftToUpRight",
+    "path": "sprites/sWallAltDownLeftToUpRight/sWallAltDownLeftToUpRight.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oHorizontalWall",
+  "name": "oWallDownLeftToUpRight",
   "tags": [],
   "resourceType": "GMObject",
 }

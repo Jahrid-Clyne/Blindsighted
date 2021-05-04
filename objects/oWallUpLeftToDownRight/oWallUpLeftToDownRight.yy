@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sWallDownLeftToUpRight",
-    "path": "sprites/sWallDownLeftToUpRight/sWallDownLeftToUpRight.yy",
+    "name": "sWallAltUpLeftToDownRight",
+    "path": "sprites/sWallAltUpLeftToDownRight/sWallAltUpLeftToDownRight.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDownLeftToUpRightWall",
+  "name": "oWallUpLeftToDownRight",
   "tags": [],
   "resourceType": "GMObject",
 }
