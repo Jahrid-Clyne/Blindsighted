@@ -1,17 +1,27 @@
 switch(currentPhase){
 	case phase.init:
-		var playerSpawner = instance_find(oPlayer, 0);
-		var playerUnit = instance_create_layer(playerSpawner.x, playerSpawner.y, "Units", oPlayer);
-		ds_list_add(global.units, playerUnit);
-		for(var i = 0; i < instance_number(oSpawn); i++){
-			var spawner = instance_find(oSpawn, i);
-			var unit = instance_create_layer(spawner.x, spawner.y,"Units", oEnemy);
-			ds_list_add(global.units, unit);
-		}
+		// Add players
+		//for(var i = 0; i <= instance_number(oPlayer); i++){
+			//var playerSpawner = instance_find(oPlayer, i);
+			var playerUnit = instance_create_layer(oPlayer.x, oPlayer.y,"Units", oPlayer);
+			ds_list_add(global.units, playerUnit);
+		//}
+		
+		// Add enemies
+		//for(var i = 0; i <= instance_number(oEnemy); i++){
+			//var enemySpawner = instance_find(oEnemy, i);
+			var enemyUnit = instance_create_layer(oEnemy.x, oEnemy.y,"Units", oEnemy);
+			ds_list_add(global.units, enemyUnit);
+		//}
 		currentPhase = phase.startTurn;
 	break;
 	
 	case phase.startTurn:
+		with(oPlayer)
+		{
+			state = phase.startTurn;
+			
+		}
 		currentPhase = phase.wait;
 	break;
 	
