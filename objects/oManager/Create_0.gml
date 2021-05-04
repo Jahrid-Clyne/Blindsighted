@@ -11,5 +11,6 @@ enum phase{
 
 
 currentPhase = phase.init;
+playerTurnToShoot = true;
 
 global.units = ds_list_create();
