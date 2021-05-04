@@ -31,6 +31,7 @@
     {"id":{"name":"oWallDownLeftToUpRight","path":"objects/oWallDownLeftToUpRight/oWallDownLeftToUpRight.yy",},"order":4,},
     {"id":{"name":"Split","path":"rooms/Split/Split.yy",},"order":2,},
     {"id":{"name":"sWallAltUpLeftToDownRight","path":"sprites/sWallAltUpLeftToDownRight/sWallAltUpLeftToDownRight.yy",},"order":11,},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":16,},
     {"id":{"name":"oPlayerBullet","path":"objects/oPlayerBullet/oPlayerBullet.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
