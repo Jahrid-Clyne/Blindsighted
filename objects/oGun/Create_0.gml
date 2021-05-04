@@ -1,2 +1,2 @@
-playerTurnToShoot = false;
-time_delay = 10;
+hasShotBullet = false;
+time_delay = 20;

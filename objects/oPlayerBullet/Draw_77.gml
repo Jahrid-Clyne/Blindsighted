@@ -68,4 +68,8 @@ if place_meeting(x, y + lengthdir_y(speed+1, direction), oEnemy) {
 
 if (collisionCount > 2) {
 	instance_destroy();
+	with (oManager)
+	{
+		currentPhase = phase.endTurn;
+	}
 }

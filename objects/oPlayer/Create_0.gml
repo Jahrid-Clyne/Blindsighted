@@ -1,4 +1,3 @@
-state = phase.init;
-moveCounter = 0;
+hasMoved = false;
 target_x = 0;
 target_y = 0;
