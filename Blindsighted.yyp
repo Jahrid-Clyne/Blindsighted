@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sMovementPointer","path":"sprites/sMovementPointer/sMovementPointer.yy",},"order":14,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":8,},
     {"id":{"name":"sWallUpLeftToDownRight","path":"sprites/sWallUpLeftToDownRight/sWallUpLeftToDownRight.yy",},"order":4,},
     {"id":{"name":"sWallAltDownLeftToUpRight","path":"sprites/sWallAltDownLeftToUpRight/sWallAltDownLeftToUpRight.yy",},"order":12,},
@@ -9,6 +10,7 @@
     {"id":{"name":"oWallHorizontal","path":"objects/oWallHorizontal/oWallHorizontal.yy",},"order":2,},
     {"id":{"name":"Bind","path":"rooms/Bind/Bind.yy",},"order":3,},
     {"id":{"name":"oWallVertical","path":"objects/oWallVertical/oWallVertical.yy",},"order":3,},
+    {"id":{"name":"oMovementPointer","path":"objects/oMovementPointer/oMovementPointer.yy",},"order":12,},
     {"id":{"name":"sWallDownLeftToUpRight","path":"sprites/sWallDownLeftToUpRight/sWallDownLeftToUpRight.yy",},"order":5,},
     {"id":{"name":"oWallUpLeftToDownRight","path":"objects/oWallUpLeftToDownRight/oWallUpLeftToDownRight.yy",},"order":5,},
     {"id":{"name":"enemyBullet","path":"sprites/enemyBullet/enemyBullet.yy",},"order":6,},
@@ -44,10 +46,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"SimpleArena","path":"rooms/SimpleArena/SimpleArena.yy",},},
     {"roomId":{"name":"Split","path":"rooms/Split/Split.yy",},},
     {"roomId":{"name":"Bind","path":"rooms/Bind/Bind.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
