@@ -17,7 +17,7 @@ switch(currentPhase){
 	break;
 	
 	case phase.startTurn:
-		with(oPlayer)
+		with(oGun)
 		{
 			state = phase.startTurn;
 			
