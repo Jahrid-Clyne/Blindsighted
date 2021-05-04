@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sUpLeftToDownRightWall",
-    "path": "sprites/sUpLeftToDownRightWall/sUpLeftToDownRightWall.yy",
+    "name": "sWallUpLeftToDownRight",
+    "path": "sprites/sWallUpLeftToDownRight/sWallUpLeftToDownRight.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sHorizontalWall",
-    "path": "sprites/sHorizontalWall/sHorizontalWall.yy",
+    "name": "sWallHorizontal",
+    "path": "sprites/sWallHorizontal/sWallHorizontal.yy",
   },
   "solid": false,
   "visible": true,
