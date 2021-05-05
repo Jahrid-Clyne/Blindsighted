@@ -4,7 +4,7 @@
     "path": "sprites/sEnemy/sEnemy.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": {
     "name": "sEnemy",
     "path": "sprites/sEnemy/sEnemy.yy",

@@ -1,7 +1,7 @@
 x += (xTo - x)/10;
 y += (yTo - y)/10;
 
-if (true){//oManager.playerTurnToShoot) {
+if (oManager.playerTurnToShoot) {
 	var vm = matrix_build_lookat(xCenter,yCenter,-10, xCenter,yCenter,0, 0, 1, 0);
 	var pm = matrix_build_projection_ortho(1025, 520, 1, 10000);
 } else {

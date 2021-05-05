@@ -8,12 +8,13 @@ if (oManager.enemyTurnToShoot && !hasShotBullet && time_delay<0) {
 	hasShotBullet=true;
 	hasShotBullet=true;
 	var directionToShoot = point_direction(x,y, oPlayer.x, oPlayer.y);
+	directionToShoot=directionToShoot-firingRange+irandom(2*other.firingRange);
 	var bullet = instance_create_layer(x,y,"Bullets", oEnemyBullet); //Creates a bullet instance
 		with (bullet)
 		{
 			speed = 4;	//Set speed of bullet
-			direction = directionToShoot; //Gets angle of the gun
-			image_angle = direction-other.firingRange+irandom(2*other.firingRange);
+			direction = directionToShoot; //Gets approx line of sight to enemy
+			image_angle = direction;
 			collisionCount =0;
 		}
 }
