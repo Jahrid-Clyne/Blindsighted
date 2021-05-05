@@ -52,6 +52,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"","path":"",},},
     {"roomId":{"name":"Bind","path":"rooms/Bind/Bind.yy",},},
+    {"groupName":"group","children":[],},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
