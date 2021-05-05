@@ -1,6 +1,6 @@
 draw_text(0, 64, string(oEnemyBullet.collisionCount));
 
-MAX_COLLISIONS = 3;
+MAX_BOUNCES = 3;
 didCollision = false;
 
 // Collision
@@ -56,7 +56,7 @@ if place_meeting(x, y + lengthdir_y(speed+1, direction), oPlayer) {
 
 
 
-if (collisionCount > MAX_COLLISIONS) {
+if (collisionCount > MAX_BOUNCES) {
 	instance_destroy();
 	with (oManager)
 	{
