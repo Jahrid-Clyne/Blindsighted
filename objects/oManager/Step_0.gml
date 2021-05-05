@@ -14,6 +14,9 @@ switch(currentPhase){
 			ds_list_add(global.units, enemyUnit);
 		//}
 		currentPhase = phase.startTurn;
+		while(instance_number(oEnemy)>1){
+			instance_destroy(instance_nth_nearest(x,y,oEnemy,2));
+		}
 	break;
 	
 	case phase.startTurn:
@@ -25,14 +28,21 @@ switch(currentPhase){
 			with(oPlayer){
 				hasMoved = false;
 			}
-		} else //enemy's turn to shoot
+		} 
+		else if(enemyTurnToShoot) //enemy's turn to shoot
 		{
+			with(oEnemy){
+				hasShotBullet=false;
+			}
 		}
 		currentPhase = phase.wait;
 	break;
 	
 	case phase.wait:	// Wait for player or enemy to shoot bullet
 		if (oGun.hasShotBullet) {
+			currentPhase = phase.process;
+		}
+		else if(oEnemy.hasShotBullet) {
 			currentPhase = phase.process;
 		}
 	break;
@@ -45,7 +55,14 @@ switch(currentPhase){
 //	break;
 //	
 	case phase.endTurn:
-		playerTurnToShoot = !playerTurnToShoot;
+		if(playerTurnToShoot){
+			playerTurnToShoot=false;
+			enemyTurnToShoot=true;
+		}
+		else if(enemyTurnToShoot){
+			playerTurnToShoot=true;
+			enemyTurnToShoot=false;
+		}
 		currentPhase = phase.startTurn;
 	break;
 	

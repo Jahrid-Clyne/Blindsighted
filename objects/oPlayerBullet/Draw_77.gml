@@ -1,7 +1,23 @@
 draw_text(0, 64, string(oPlayerBullet.collisionCount));
 
-MAX_COLLISIONS = 2;
+MAX_BOUNCES = 2;
 didCollision = false;
+
+// Distance to Enemy Feedback
+d2e = distance_to_object(oEnemy);
+distances = [15, 30, 45, 60, 75, 100, 125, 150, 200, 250];
+dsize = array_length_1d(distances);
+
+for (i = 0; i < dsize; i += 1) {
+	if d2e <= distances[i] {
+		image_index = dsize + 1 - i;
+		break;
+	}
+}
+
+if d2e > distances[dsize - 1] {
+	image_index = 1;
+}
 
 // Collision
 if place_meeting(x + lengthdir_x(speed+1, direction), y + lengthdir_y(speed+1, direction), oWall) {
@@ -50,6 +66,7 @@ if place_meeting(x + lengthdir_x(speed+1, direction), y, oEnemy) {
 	with (oManager)
 	{
 		currentPhase = phase.win;
+		room_goto(WinScreen); 
 	}
 }
 
@@ -61,13 +78,14 @@ if place_meeting(x, y + lengthdir_y(speed+1, direction), oEnemy) {
 	with (oManager)
 	{
 		currentPhase = phase.win;
+		room_goto(WinScreen); 
 	}
 }
 
 
 
 
-if (collisionCount > MAX_COLLISIONS) {
+if (collisionCount > MAX_BOUNCES) {
 	instance_destroy();
 	with (oManager)
 	{
