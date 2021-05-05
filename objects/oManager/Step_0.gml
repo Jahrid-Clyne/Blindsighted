@@ -14,6 +14,9 @@ switch(currentPhase){
 			ds_list_add(global.units, enemyUnit);
 		//}
 		currentPhase = phase.startTurn;
+		if(instance_number(oEnemy)>1){
+			instance_destroy(instance_nth_nearest(x,y,oEnemy,2));
+		}
 	break;
 	
 	case phase.startTurn:

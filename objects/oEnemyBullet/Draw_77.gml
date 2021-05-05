@@ -29,29 +29,30 @@ if didCollision {
 }
 
 
-/*
-if place_meeting(x + lengthdir_x(speed+1, direction), y, oEnemy) {
-	with (oEnemy) {
+
+if place_meeting(x + lengthdir_x(speed+1, direction), y, oPlayer) {
+	with (oPlayer) {
 	instance_destroy();
 	}
 	instance_destroy();
 	with (oManager)
 	{
-		currentPhase = phase.win;
+		currentPhase = phase.lose;
+		room_goto(LostScreen);
 	}
 }
 
-if place_meeting(x, y + lengthdir_y(speed+1, direction), oEnemy) {
-	with (oEnemy) {
+if place_meeting(x, y + lengthdir_y(speed+1, direction), oPlayer) {
+	with (oPlayer) {
 	instance_destroy();
 	}
 	instance_destroy();
 	with (oManager)
 	{
-		currentPhase = phase.win;
+		currentPhase = phase.lose;
+		room_goto(LostScreen);
 	}
 }
-*/
 
 
 
