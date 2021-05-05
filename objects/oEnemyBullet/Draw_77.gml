@@ -1,4 +1,4 @@
-draw_text(0, 64, string(oPlayerBullet.collisionCount));
+draw_text(0, 64, string(oEnemyBullet.collisionCount));
 
 MAX_COLLISIONS = 3;
 didCollision = false;

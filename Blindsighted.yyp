@@ -7,6 +7,7 @@
     {"id":{"name":"oPlayerSpawner","path":"objects/oPlayerSpawner/oPlayerSpawner.yy",},"order":14,},
     {"id":{"name":"btnPlay","path":"objects/btnPlay/btnPlay.yy",},"order":0,},
     {"id":{"name":"btnReturn","path":"objects/btnReturn/btnReturn.yy",},"order":4,},
+    {"id":{"name":"NthNearestInstance","path":"scripts/NthNearestInstance/NthNearestInstance.yy",},"order":0,},
     {"id":{"name":"sWallUpLeftToDownRight","path":"sprites/sWallUpLeftToDownRight/sWallUpLeftToDownRight.yy",},"order":4,},
     {"id":{"name":"sWallAltDownLeftToUpRight","path":"sprites/sWallAltDownLeftToUpRight/sWallAltDownLeftToUpRight.yy",},"order":12,},
     {"id":{"name":"sLostScreen","path":"sprites/sLostScreen/sLostScreen.yy",},"order":3,},
