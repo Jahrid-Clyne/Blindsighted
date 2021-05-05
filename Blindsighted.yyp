@@ -65,7 +65,9 @@
     {"roomId":{"name":"","path":"",},},
     {"roomId":{"name":"Bind","path":"rooms/Bind/Bind.yy",},},
     {"roomId":{"name":"LostScreen","path":"rooms/LostScreen/LostScreen.yy",},},
+    {"groupName":"group","children":[],},
     {"roomId":{"name":"WinScreen","path":"rooms/WinScreen/WinScreen.yy",},},
+    {"groupName":"group1","children":[],},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

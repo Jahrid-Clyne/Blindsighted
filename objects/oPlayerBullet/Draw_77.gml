@@ -50,6 +50,7 @@ if place_meeting(x + lengthdir_x(speed+1, direction), y, oEnemy) {
 	with (oManager)
 	{
 		currentPhase = phase.win;
+		room_goto(WinScreen); 
 	}
 }
 
@@ -61,6 +62,7 @@ if place_meeting(x, y + lengthdir_y(speed+1, direction), oEnemy) {
 	with (oManager)
 	{
 		currentPhase = phase.win;
+		room_goto(WinScreen); 
 	}
 }
 
