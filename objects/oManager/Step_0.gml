@@ -10,7 +10,8 @@ switch(currentPhase){
 		// Add enemies
 		//for(var i = 0; i <= instance_number(oEnemy); i++){
 			//var enemySpawner = instance_find(oEnemy, i);
-			var enemyUnit = instance_create_layer(oEnemy.x, oEnemy.y,"Units", oEnemy);
+			var enemyUnit = instance_create_layer(irandom_range(50,950), irandom_range(50,425),"Units", oEnemy);
+			//var enemyUnit = instance_create_layer(irandom_range(50, 1025-50), irandom_range(50, 520-50),"Units", oEnemy);
 			ds_list_add(global.units, enemyUnit);
 		//}
 		currentPhase = phase.startTurn;

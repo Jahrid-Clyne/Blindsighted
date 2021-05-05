@@ -4,8 +4,6 @@ time_delay-=1;
 	instance_destroy(otherEnemy);
 } */
 if (oManager.enemyTurnToShoot && !hasShotBullet && time_delay<0) {
-	oEnemy.x = oEnemy.x + random_range(-10,10);
-	hasShotBullet=true;
 	hasShotBullet=true;
 	var directionToShoot = point_direction(x,y, oPlayer.x, oPlayer.y);
 	directionToShoot=directionToShoot-firingRange+irandom(2*other.firingRange);
