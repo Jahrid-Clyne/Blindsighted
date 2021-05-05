@@ -25,14 +25,21 @@ switch(currentPhase){
 			with(oPlayer){
 				hasMoved = false;
 			}
-		} else //enemy's turn to shoot
+		} 
+		else if(enemyTurnToShoot) //enemy's turn to shoot
 		{
+			with(oEnemy){
+				hasShotBullet=false;
+			}
 		}
 		currentPhase = phase.wait;
 	break;
 	
 	case phase.wait:	// Wait for player or enemy to shoot bullet
 		if (oGun.hasShotBullet) {
+			currentPhase = phase.process;
+		}
+		else if(oEnemy.hasShotBullet) {
 			currentPhase = phase.process;
 		}
 	break;
@@ -45,7 +52,14 @@ switch(currentPhase){
 //	break;
 //	
 	case phase.endTurn:
-		playerTurnToShoot = !playerTurnToShoot;
+		if(playerTurnToShoot){
+			playerTurnToShoot=false;
+			enemyTurnToShoot=true;
+		}
+		else if(enemyTurnToShoot){
+			playerTurnToShoot=true;
+			enemyTurnToShoot=false;
+		}
 		currentPhase = phase.startTurn;
 	break;
 	
