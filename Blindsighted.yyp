@@ -31,6 +31,7 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":9,},
     {"id":{"name":"oEnemySpawner","path":"objects/oEnemySpawner/oEnemySpawner.yy",},"order":11,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"Haven","path":"rooms/Haven/Haven.yy",},"order":8,},
     {"id":{"name":"sWallVertical","path":"sprites/sWallVertical/sWallVertical.yy",},"order":1,},
     {"id":{"name":"WinScreen","path":"rooms/WinScreen/WinScreen.yy",},"order":7,},
     {"id":{"name":"sWinScreen","path":"sprites/sWinScreen/sWinScreen.yy",},"order":4,},
@@ -69,6 +70,7 @@
     {"groupName":"group","children":[],},
     {"roomId":{"name":"WinScreen","path":"rooms/WinScreen/WinScreen.yy",},},
     {"groupName":"group1","children":[],},
+    {"roomId":{"name":"Haven","path":"rooms/Haven/Haven.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
