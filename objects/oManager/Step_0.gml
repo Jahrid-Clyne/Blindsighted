@@ -1,5 +1,6 @@
 switch(currentPhase){
 	case phase.init:
+
 		// Add players
 		//for(var i = 0; i <= instance_number(oPlayer); i++){
 			//var playerSpawner = instance_find(oPlayer, i);
@@ -68,9 +69,15 @@ switch(currentPhase){
 	break;
 	
 	case phase.win:
+		//audio_stop_all();
+
+		//audio_play_sound(mVictory, 1000, true);
 	break;
 	
 	case phase.lose:
+		//audio_stop_all();
+
+		//audio_play_sound(mDefeat, 1000, true);
 	break;
 
 	

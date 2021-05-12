@@ -1,0 +1,1 @@
+audio_play_sound(mBGM, 1000, true)
