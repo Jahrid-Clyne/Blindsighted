@@ -2,4 +2,5 @@
 // You can write your code in this editor
 hasShotBullet = true;
 firingRange = 60;
-time_delay= 20;
+DELAY = 30; // 30 frames ~ half second
+time_delay = DELAY;

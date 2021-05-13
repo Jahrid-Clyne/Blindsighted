@@ -1,9 +1,16 @@
-time_delay-=1;
 //var otherEnemy= instance_nth_nearest(x,y,oEnemy,2)
 /*if(otherEnemy!=noone && otherEnemy!=instance_id){
 	instance_destroy(otherEnemy);
 } */
-if (oManager.enemyTurnToShoot && !hasShotBullet && time_delay<0) {
+
+// Decrement timer on enemy turn
+if (oManager.enemyTurnToShoot && !hasShotBullet && time_delay>0) {
+	time_delay-=1;
+}
+
+// Shoot when timer == 0
+else if (oManager.enemyTurnToShoot && !hasShotBullet && time_delay<=0) {
+	time_delay = DELAY;
 	hasShotBullet=true;
 	var directionToShoot = point_direction(x,y, oPlayer.x, oPlayer.y);
 	directionToShoot=directionToShoot-firingRange+irandom(2*other.firingRange);
