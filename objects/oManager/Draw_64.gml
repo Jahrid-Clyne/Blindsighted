@@ -1,3 +1,4 @@
+/*
 draw_text(0,0, string(currentPhase));
 
 for (var i = 0; i < ds_list_size(global.units); i++) {
@@ -18,3 +19,4 @@ draw_text(0,120, string("BGM, Defeat, Victory "));
 draw_text(0, 150, string (audio_is_playing(mBGM)));
 draw_text(50, 150, string (audio_is_playing(mDefeat)));
 draw_text(100, 150, string (audio_is_playing(mVictory)));
+*/

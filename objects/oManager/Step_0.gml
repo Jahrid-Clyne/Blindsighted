@@ -68,6 +68,7 @@ switch(currentPhase){
 	case phase.startTurn:
 		if (playerTurnToShoot)
 		{
+			oEnemyTurn.image_index = 1;
 			with(oGun){
 				hasShotBullet = false;
 			}
@@ -77,6 +78,7 @@ switch(currentPhase){
 		} 
 		else if(enemyTurnToShoot) //enemy's turn to shoot
 		{
+			oEnemyTurn.image_index = 0;
 			with(oEnemy){
 				hasShotBullet=false;
 			}
