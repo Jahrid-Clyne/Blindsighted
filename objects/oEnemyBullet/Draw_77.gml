@@ -5,6 +5,7 @@ didCollision = false;
 
 // Collision
 if place_meeting(x + lengthdir_x(speed+1, direction), y + lengthdir_y(speed+1, direction), oWall) {
+	audio_play_sound(sBounce,4,false);
 	if place_meeting(x + lengthdir_x(speed+1, direction), y + lengthdir_y(speed+1, direction), oWallHorizontal) {
 		direction = 360 - direction;
 		didCollision = true;
