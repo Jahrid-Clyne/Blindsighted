@@ -2,8 +2,8 @@
   "resources": [
     {"id":{"name":"sMovementPointer","path":"sprites/sMovementPointer/sMovementPointer.yy",},"order":14,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":8,},
+    {"id":{"name":"oCameraBind","path":"objects/oCameraBind/oCameraBind.yy",},"order":21,},
     {"id":{"name":"oEnemyBullet","path":"objects/oEnemyBullet/oEnemyBullet.yy",},"order":15,},
-    {"id":{"name":"oManagerHaven","path":"objects/oManagerHaven/oManagerHaven.yy",},"order":20,},
     {"id":{"name":"LostScreen","path":"rooms/LostScreen/LostScreen.yy",},"order":5,},
     {"id":{"name":"oPlayerSpawner","path":"objects/oPlayerSpawner/oPlayerSpawner.yy",},"order":14,},
     {"id":{"name":"btnPlay","path":"objects/btnPlay/btnPlay.yy",},"order":0,},
@@ -24,6 +24,7 @@
     {"id":{"name":"sWallDownLeftToUpRight","path":"sprites/sWallDownLeftToUpRight/sWallDownLeftToUpRight.yy",},"order":5,},
     {"id":{"name":"oWallUpLeftToDownRight","path":"objects/oWallUpLeftToDownRight/oWallUpLeftToDownRight.yy",},"order":5,},
     {"id":{"name":"StartingScreen","path":"rooms/StartingScreen/StartingScreen.yy",},"order":4,},
+    {"id":{"name":"testObject","path":"objects/testObject/testObject.yy",},"order":20,},
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},"order":1,},
     {"id":{"name":"enemyBullet","path":"sprites/enemyBullet/enemyBullet.yy",},"order":6,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":13,},
@@ -56,7 +57,7 @@
     {"id":{"name":"sWallAltUpLeftToDownRight","path":"sprites/sWallAltUpLeftToDownRight/sWallAltUpLeftToDownRight.yy",},"order":11,},
     {"id":{"name":"mDefeat","path":"sounds/mDefeat/mDefeat.yy",},"order":1,},
     {"id":{"name":"sReturnButton","path":"sprites/sReturnButton/sReturnButton.yy",},"order":2,},
-    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":16,},
+    {"id":{"name":"oCameraSplit","path":"objects/oCameraSplit/oCameraSplit.yy",},"order":16,},
     {"id":{"name":"oPlayerBullet","path":"objects/oPlayerBullet/oPlayerBullet.yy",},"order":6,},
   ],
   "Options": [

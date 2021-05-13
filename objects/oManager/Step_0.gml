@@ -1,22 +1,64 @@
+bindSpawnLocationsX = [ 500, 600, 700,
+500, 700, 800, 900, 1000,
+100, 200, 300, 400, 500, 900, 1000,
+100, 200, 300, 400, 500, 900, 1000,
+600, 700, 800, 900, 1000]
+bindSpawnLocationsY = [ 100, 100, 100,
+200, 200, 200, 200, 200,
+300, 300, 300, 300, 300, 300, 300,
+400, 400, 400, 400, 400, 400, 400,
+500, 500, 500, 500, 500]
+bindSpawnLocationsLength = array_length_1d(bindSpawnLocationsX);
 
+splitSpawnLocationsX = [ 100, 200, 300, 400, 500, 600, 700,	800, 900,
+100, 200, 300, 500, 600, 700, 800, 900,
+100, 200, 300, 400, 500, 600, 700, 800, 900,
+100, 200, 300, 400, 600, 700, 800, 900]
+splitSpawnLocationsY = [ 100, 100, 100, 100, 100, 100, 100, 100,100,
+200, 200, 200, 200, 200, 200, 200, 200,
+300, 300, 300, 300, 300, 300, 300, 300, 300,
+400, 400, 400, 400, 400, 400, 400, 400]
+splitSpawnLocationsLength = array_length_1d(splitSpawnLocationsX);
+
+
+havenSpawnLocationsX = [ 100, 200, 300, 400, 500, 600, 700, 800,
+100, 200, 300, 400, 500, 700, 800,
+100, 400, 800,
+100, 200, 300, 400, 500, 700, 800,
+100, 200, 300, 500, 600, 700, 800]
+havenSpawnLocationsY = [ 100, 100, 100, 100, 100, 100, 100, 100,
+200, 200, 200, 200, 200, 200, 200,
+300, 300, 300,
+400, 400, 400, 400, 400, 400, 400,
+500, 500, 500, 500, 500, 500, 500]
+havenSpawnLocationsLength = array_length_1d(havenSpawnLocationsX);
 
 switch(currentPhase){
 	case phase.init:
-
-		// Add players
-		//for(var i = 0; i <= instance_number(oPlayer); i++){
-			//var playerSpawner = instance_find(oPlayer, i);
+		// Add player
 			var playerUnit = instance_create_layer(oPlayer.x, oPlayer.y,"Units", oPlayer);
 			ds_list_add(global.units, playerUnit);
-		//}
 		
 		// Add enemies
-		//for(var i = 0; i <= instance_number(oEnemy); i++){
-			//var enemySpawner = instance_find(oEnemy, i);
-			var enemyUnit = instance_create_layer(irandom_range(50,950), irandom_range(50,425),"Units", oEnemy);
-			//var enemyUnit = instance_create_layer(irandom_range(50, 1025-50), irandom_range(50, 520-50),"Units", oEnemy);
+		if (room == Bind) { 
+			randomLocationIndex = irandom_range(0, bindSpawnLocationsLength-1);
+			randomX = bindSpawnLocationsX[randomLocationIndex];
+			randomY = bindSpawnLocationsY[randomLocationIndex];
+			var enemyUnit = instance_create_layer(randomX, randomY, "Units", oEnemy);
 			ds_list_add(global.units, enemyUnit);
-		//}
+		} else if (room == Haven) {
+			randomLocationIndex = irandom_range(0, havenSpawnLocationsLength-1);
+			randomX = havenSpawnLocationsX[randomLocationIndex];
+			randomY = havenSpawnLocationsY[randomLocationIndex];
+			var enemyUnit = instance_create_layer(randomX, randomY, "Units", oEnemy);
+			ds_list_add(global.units, enemyUnit);
+		} else if (room == Split) {
+			randomLocationIndex = irandom_range(0, splitSpawnLocationsLength-1);
+			randomX = splitSpawnLocationsX[randomLocationIndex];
+			randomY = splitSpawnLocationsY[randomLocationIndex];
+			var enemyUnit = instance_create_layer(randomX, randomY, "Units", oEnemy);
+			ds_list_add(global.units, enemyUnit);
+		}
 		currentPhase = phase.startTurn;
 		while(instance_number(oEnemy)>1){
 			instance_destroy(instance_nth_nearest(x,y,oEnemy,2));

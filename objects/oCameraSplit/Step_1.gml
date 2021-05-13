@@ -19,3 +19,4 @@ if (oManager.playerTurnToShoot) {
 
 camera_set_view_mat(camera, vm);
 camera_set_proj_mat(camera, pm);
+
