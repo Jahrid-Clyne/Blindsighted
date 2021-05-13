@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 99,
-  "bbox_right": 979,
-  "bbox_top": 75,
-  "bbox_bottom": 192,
+  "bbox_left": 66,
+  "bbox_right": 946,
+  "bbox_top": 69,
+  "bbox_bottom": 186,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -67,7 +67,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"6eab59c2-74d0-4fff-9399-8241a9d312ba","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "Title Screen",
     "path": "folders/Sprites/Title Screen.yy",
