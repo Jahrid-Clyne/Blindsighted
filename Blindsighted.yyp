@@ -3,6 +3,7 @@
     {"id":{"name":"sMovementPointer","path":"sprites/sMovementPointer/sMovementPointer.yy",},"order":14,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":8,},
     {"id":{"name":"oEnemyBullet","path":"objects/oEnemyBullet/oEnemyBullet.yy",},"order":15,},
+    {"id":{"name":"oManagerHaven","path":"objects/oManagerHaven/oManagerHaven.yy",},"order":20,},
     {"id":{"name":"LostScreen","path":"rooms/LostScreen/LostScreen.yy",},"order":5,},
     {"id":{"name":"oPlayerSpawner","path":"objects/oPlayerSpawner/oPlayerSpawner.yy",},"order":14,},
     {"id":{"name":"btnPlay","path":"objects/btnPlay/btnPlay.yy",},"order":0,},
