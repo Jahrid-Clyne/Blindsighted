@@ -1,5 +1,5 @@
-draw_text(0,0, string("Right Click to Move"));
-draw_text(0,16,string("Left Click to Shoot, Shooting Ends Your Turn"))
+//draw_text(0,0, string("Right Click to Move"));
+//draw_text(0,16,string("Left Click to Shoot, Shooting Ends Your Turn"))
 
 /* Debugging Text
 draw_text(0,0, string(currentPhase));

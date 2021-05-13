@@ -1,9 +1,10 @@
 camera = camera_create();
 WIDTH = 896;
 HEIGHT = 576;
-SWIDTH = 1024
+SWIDTH = 1138;
+SHEIGHT = 640
 w = SWIDTH;
-h = HEIGHT;
+h = SHEIGHT;
 x = WIDTH/2;
 y = HEIGHT/2;
 xCenter = x;

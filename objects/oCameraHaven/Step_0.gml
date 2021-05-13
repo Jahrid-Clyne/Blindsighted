@@ -7,7 +7,7 @@ if (oManager.playerTurnToShoot) {
 	xTo = xCenter;
 	yTo = yCenter;
 	wTo = SWIDTH;
-	hTo = HEIGHT;
+	hTo = SHEIGHT;
 	
 	var vm = matrix_build_lookat(x, y, -10, x, y, 0, 0, 1, 0);
 	var pm = matrix_build_projection_ortho(w, h, 1, 10000);
