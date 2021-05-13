@@ -25,9 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"4ac06ad3-805c-47a7-b6ac-6ad3e3d919ea","path":"sprites/sPlayButton/sPlayButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ac06ad3-805c-47a7-b6ac-6ad3e3d919ea","path":"sprites/sPlayButton/sPlayButton.yy",},"LayerId":{"name":"b843b2a5-9267-4c8f-b80e-1c63a28a0bc0","path":"sprites/sPlayButton/sPlayButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"4ac06ad3-805c-47a7-b6ac-6ad3e3d919ea","path":"sprites/sPlayButton/sPlayButton.yy",},"LayerId":{"name":"7308ef8c-5a08-449b-b7fd-8aae176a6a7d","path":"sprites/sPlayButton/sPlayButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"4ac06ad3-805c-47a7-b6ac-6ad3e3d919ea","path":"sprites/sPlayButton/sPlayButton.yy",},"LayerId":{"name":"ed492c11-c3f2-43f2-b00b-6f581f1ade11","path":"sprites/sPlayButton/sPlayButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"4ac06ad3-805c-47a7-b6ac-6ad3e3d919ea","path":"sprites/sPlayButton/sPlayButton.yy",},"LayerId":{"name":"b843b2a5-9267-4c8f-b80e-1c63a28a0bc0","path":"sprites/sPlayButton/sPlayButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sPlayButton","path":"sprites/sPlayButton/sPlayButton.yy",},"resourceVersion":"1.0","name":"4ac06ad3-805c-47a7-b6ac-6ad3e3d919ea","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -70,6 +69,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"ed492c11-c3f2-43f2-b00b-6f581f1ade11","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"b843b2a5-9267-4c8f-b80e-1c63a28a0bc0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Title Screen",
     "path": "folders/Sprites/Title Screen.yy",
