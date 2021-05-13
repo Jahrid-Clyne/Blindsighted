@@ -4,4 +4,5 @@ RoomType[0] = Split;
 RoomType[1] = Haven; 
 RoomType[2] = Bind; 
 
-room_goto(RoomType[irandom(array_length_1d(RoomType) - 1)]); 
+global.lastRoom = RoomType[irandom(array_length_1d(RoomType) - 1)];
+room_goto(global.lastRoom); 
