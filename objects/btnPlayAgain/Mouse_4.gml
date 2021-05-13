@@ -1,2 +1,4 @@
 /// Return to last room played
-room_goto(global.lastRoom); 
+if variable_global_exists("lastRoom") {
+	room_goto(global.lastRoom);
+}

@@ -1,7 +1,9 @@
 // Hack to fix room order
-/*
-if (gameJustStarted) {
-	gameJustStarted = false;
-	room_goto(StartingScreen);
+if variable_global_exists("gameJustStarted") {
+	if (global.gameJustStarted) {
+		global.gameJustStarted = false;
+		room_goto(StartingScreen);
+	}
+} else {
+	global.gameJustStarted = false;
 }
-*/

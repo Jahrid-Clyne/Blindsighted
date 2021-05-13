@@ -1,2 +1,2 @@
 // Hack to fix room order
-gameJustStarted = true;
+global.gameJustStarted = true;
