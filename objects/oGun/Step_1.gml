@@ -1,5 +1,5 @@
-x = oPlayer.x+3;
-y = oPlayer.y-6;
+x = oPlayer.x+10;
+y = oPlayer.y+8;
 
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 time_delay = time_delay - 1;
