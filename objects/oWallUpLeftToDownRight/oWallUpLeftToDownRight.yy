@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sWallAltUpLeftToDownRightCollider",
+    "path": "sprites/sWallAltUpLeftToDownRightCollider/sWallAltUpLeftToDownRightCollider.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "oWall",
