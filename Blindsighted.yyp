@@ -44,6 +44,7 @@
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":10,},
     {"id":{"name":"oLostScreen","path":"objects/oLostScreen/oLostScreen.yy",},"order":3,},
     {"id":{"name":"oManager","path":"objects/oManager/oManager.yy",},"order":9,},
+    {"id":{"name":"oCameraHaven","path":"objects/oCameraHaven/oCameraHaven.yy",},"order":19,},
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},"order":3,},
     {"id":{"name":"oWallDownLeftToUpRight","path":"objects/oWallDownLeftToUpRight/oWallDownLeftToUpRight.yy",},"order":4,},
     {"id":{"name":"oWinScreen","path":"objects/oWinScreen/oWinScreen.yy",},"order":2,},
