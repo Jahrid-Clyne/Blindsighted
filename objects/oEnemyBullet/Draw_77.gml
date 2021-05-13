@@ -21,6 +21,7 @@ if place_meeting(x + lengthdir_x(speed+1, direction), y + lengthdir_y(speed+1, d
 		direction = ((270 - direction) + 360) % 360;
 		didCollision = true;
 	}
+	audio_play_sound(sBounce, 4, false);
 }
 
 if didCollision {
